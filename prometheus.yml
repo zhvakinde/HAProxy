@@ -30,4 +30,4 @@ scrape_configs:
 
   - job_name: 'haproxy'
     static_configs:
-            - targets: ['10.129.0.17:9091', '10.129.0.13:9091']
+            - targets: ['localhost:9091']
